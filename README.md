@@ -10,14 +10,15 @@ You will need [maven](https://maven.apache.org) to build this project.
 ## Usage
 
 Pass thru message from a client to a server over TCP.
- 
+
+``` 
  java -jar target/passthru-1.0-SNAPSHOT.jar [-a <passthru address>] [-h] [-l <listen port>] [-p <passthru port>]
 
  -a,--address <passthru address>   the passthru address
  -h,--help                         show help
  -l,--listen <listen port>         listen on the server port
  -p,--port <passthru port>         the passthru port
-
+```
 The passthru displays a *$* prompt. You can enter one of the following commands:
 
 * exit - exit the application.
